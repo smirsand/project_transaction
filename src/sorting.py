@@ -7,7 +7,6 @@ def sorting_operations():
     '''
     operations_catd = [item for item in read_operations() if item.get("state") == "EXECUTED" and "date" in item]
     operations_catd.sort(key=lambda x: x["date"], reverse=True)
-    print(operations_catd)
     return operations_catd
 
 
