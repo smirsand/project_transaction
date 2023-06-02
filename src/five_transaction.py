@@ -2,9 +2,9 @@ from src.sorting import sorting_operations
 
 
 def five_transaction():
-    '''
+    """
     Функция принимает список и возвращает список из 5 элементов
-    '''
+    """
     list_transaction = []
     count = 0
     for i in sorting_operations():
