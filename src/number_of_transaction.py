@@ -3,9 +3,9 @@ from src.five_transaction import five_transaction
 
 
 def output():
-    '''
+    """
     Функция принимает список данных из 5 последних успешных операций и выводит информацию на экран.
-    '''
+    """
     for i in five_transaction():
         # Дата операции в формате число.месяц.год.
         transfer_date = (datetime.strptime(i['date'], "%Y-%m-%dT%H:%M:%S.%f")).strftime("%d.%m.%Y")
