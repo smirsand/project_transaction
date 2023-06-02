@@ -1,4 +1,4 @@
-from src.utils import read_operations
+from src.sorting import sorting_operations
 
 
 def five_transaction():
@@ -7,7 +7,7 @@ def five_transaction():
     '''
     list_transaction = []
     count = 0
-    for i in read_operations():
+    for i in sorting_operations():
         count += 1
         if count == 6:
             break
